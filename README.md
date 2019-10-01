@@ -137,7 +137,7 @@ We’ll cover when to use machine learning vs. humans or heuristics for data ext
 * Supervised learning / classification
   * Classification: does this DOM element contain pub date for this article or not
 * Practical issues in date collection:
-  * After correct publication date is entered into csv, web apge goes 404
+  * After correct publication date is entered into csv, web page goes 404
   * Articles have pub dates when viewed in the browser
   * ....
 * Get all DOM elements w/ dates
@@ -171,7 +171,7 @@ Lastly, I'll go over some example code that ties many of these techniques togeth
 * How do we make code elegant? We pick the right tool for the job!
 * Magic methods
   * start and end with a double underscore (aka. dunder)
-  * you can make your objects behave like built-ins (dict, numbers, numberic operations, etc)
+  * you can make your objects behave like built-ins (dict, numbers, numeric operations, etc)
   * See example from slide deck
 * Custom iterators
   * Making classes iterable: need to implement `__iter__()` and `__next__()`
@@ -182,7 +182,7 @@ Lastly, I'll go over some example code that ties many of these techniques togeth
 * `functools.partial`
   * Returns a new partial object which behave like func called with args and kwargs
 * Context managers
-  * feature tags: Turn features of your applcation on and off easily. (A/B testing, rolling releases, etc)
+  * feature tags: Turn features of your application on and off easily. (A/B testing, rolling releases, etc)
   * example: freezegun
 * NamedTuple
 
@@ -199,7 +199,7 @@ Ying Li (security software engineer @ Docker)
 * Follow basic best practices (Django default, ORM, Auth, TLS, updates)
   * Use Django defaults to prevent string literal job
   * Use VPN so that the different server are compartmentalized
-  * Anonymizing customer info and set up cron job to delete old data
+  * Anonymize customer info and set up cron job to delete old data
   * Add static code analysis tool in Jenkins to prevent injection attacks
 * Jetbrains and PSF survey of Python user base (https://www.jetbrains.com/research/python-developers-survey-2017/):
   * ~ 23% web developers
@@ -368,17 +368,17 @@ Christopher Fonnesbeck
   * Gaussian processes in Python
     * GPy, GPflow, scikit-learn, PyStan, Edward, George, PyMC3
 * PyMC3
-  * PP framework for fitting arbitrary probaility models
+  * PP framework for fitting arbitrary probability models
   * based on Theano (but may be switched to Tensorflow backend)
 * Example: salmon spawning data
-  * Gaussian data + GP prior, get Gausssian process back
+  * Gaussian data + GP prior, get Gaussian process back
   * Making prediction with Gaussian processes - posterior predictive distribution
   * Probabilistic models has error bars that comes more or less for free
 * Example: coal mining disasters
   * Latent Gaussian process:
   * For counts we can use a Poisson distribution
   * MCMC sampling
-  * With MCMC you can get posterior hyperparameter eisates
+  * With MCMC you can get posterior hyperparameter eigenstates
 * Example: measles outbreak (published paper from his group in 2018)
 * Scaling Gaussian processes
   * Does not scale well. Not a big data analysis tool
